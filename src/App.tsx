@@ -28,7 +28,7 @@ export default function App() {
         number_doc_billing: '100000000',
     };
 
-    const handler = window.ePayco.checkout.configure({
+    const handler = ePayco.checkout.configure({
         key: 'aabdfb50003765835312485cfb1622f2',
         test: true,
     });
